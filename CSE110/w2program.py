@@ -1,18 +1,27 @@
+# Ask the user for their age and convert the input to an integer
 age = int(input("How old are you? "))
 
-Next_Birthday = 1 + age
+# Calculate the age on the user's next birthday
+next_birthday = 1 + age
 
-print(f"YAY! You will be {Next_Birthday} in your next birthday, Happy birthday in advance!")
+# Print a message about the user's next birthday
+print(f"YAY! You will be {next_birthday} in your next birthday, Happy birthday in advance!")
 
-Total_Cartons = int(input("What is the total number of Egg cartons you have? "))
+# Ask the user for the total number of egg cartons and convert the input to an integer
+total_cartons = int(input("What is the total number of Egg cartons you have? "))
 
-Total_Num_Of_Eggs_In_A_Cartons = 12 * Total_Cartons
+# Calculate the total number of eggs (12 eggs per carton)
+total_num_of_eggs_in_a_cartons = 12 * total_cartons
 
+# Print the total number of eggs
 print(f"In a carton they are 12 eggs, so the total number of eggs you have is {Total_Num_Of_Eggs_In_A_Cartons}")
 
-Number_Of_Cookies = int(input("Number of Cookies? "))
-Number_Of_People = int(input("Number of people? "))
+# Ask the user for the number of cookies and people, and convert inputs to integers
+number_of_cookies = int(input("Number of Cookies? "))
+number_of_people = int(input("Number of people? "))
 
-Cookies_Each_Person_Get = Number_Of_Cookies / Number_Of_People
+# Calculate how many cookies each person gets (may be a float)
+cookies_each_person_get = number_of_cookies / number_of_people
 
-print(f"Each person get {Cookies_Each_Person_Get}")
+# Print how many cookies each person gets
+print(f"Each person get {cookies_each_person_get}")
