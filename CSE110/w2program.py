@@ -14,7 +14,7 @@ total_cartons = int(input("What is the total number of Egg cartons you have? "))
 total_num_of_eggs_in_a_cartons = 12 * total_cartons
 
 # Print the total number of eggs
-print(f"In a carton they are 12 eggs, so the total number of eggs you have is {Total_Num_Of_Eggs_In_A_Cartons}")
+print(f"In a carton they are 12 eggs, so the total number of eggs you have is {total_num_of_eggs_in_a_cartons}")
 
 # Ask the user for the number of cookies and people, and convert inputs to integers
 number_of_cookies = int(input("Number of Cookies? "))
